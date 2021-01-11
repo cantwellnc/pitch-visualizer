@@ -1,0 +1,27 @@
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: black;
+    transition: background-color 300ms ease;
+}
+
+div {
+    text-align: center;
+    margin-top: 4rem;
+    color: whitesmoke;
+}
+
+#status {
+    transition: display 1000ms ease;
+}
+
+#result {
+    transition: text-content 300ms ease;
+}
+
+button {
+    font-size: 5rem;
+    padding: 0 20px;
+    background-color: blueviolet;
+    border-radius: 10px 10px;
+    border: none;
+}
